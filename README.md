@@ -8,17 +8,17 @@
 	<a href="https://www.linkedin.com/in/luiz-gustavo-56146b1a5/">
       <img alt="Luiz Gustavo" src="https://img.shields.io/badge/-LuizGustavo-f5ef7a?style=flat&logo=Linkedin&logoColor=white" />
    </a>
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/tonicprism/gift-card-website?color=f5ef7a">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/tonicprism/giftcard-website?color=f5ef7a">
 
   <img src="https://img.shields.io/badge/version-1.0.0-f5ef7a.svg?cacheSeconds=2592000" />
-  <a href="https://github.com/tonicprism/gift-card-website/#readme">
+  <a href="https://github.com/tonicprism/giftcard-website/#readme">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-f5ef7a.svg" target="_blank" />
   </a>
-   <a href="https://github.com/tonicprism/gift-card-website/commits/master">
-      <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/tonicprism/gift-card-website?color=f5ef7a">
+   <a href="https://github.com/tonicprism/giftcard-website/commits/master">
+      <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/tonicprism/giftcard-website?color=f5ef7a">
   </a>
-   <a href="https://github.com/tonicprism/gift-card-website/stargazers">
-      <img alt="Stargazers" src="https://img.shields.io/github/stars/tonicprism/gift-card-website?color=f5ef7a&logo=github">
+   <a href="https://github.com/tonicprism/giftcard-website/stargazers">
+      <img alt="Stargazers" src="https://img.shields.io/github/stars/tonicprism/giftcard-website?color=f5ef7a&logo=github">
    </a>
 </p>
 
@@ -99,7 +99,7 @@ If you whats to use the Eslint and Prettier configs follow this tutorial:
 
 # :bug: Issues
 
-Feel free to **file a new issue** with a respective title and description on the the [Gift Card Website](https://github.com/tonicprism/gift-card-website/issues) repository. If you already found a solution to your problem, **i would love to review your pull request**!
+Feel free to **file a new issue** with a respective title and description on the the [Gift Card Website](https://github.com/tonicprism/giftcard-website/issues) repository. If you already found a solution to your problem, **i would love to review your pull request**!
 
 # :tada: Contributing
 
