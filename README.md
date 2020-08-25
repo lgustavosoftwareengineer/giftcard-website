@@ -2,7 +2,7 @@
    <img src="https://cdn.shopify.com/s/files/1/1061/1924/products/4_large.png?v=1571606116" width="150"/>
 </p>
 
-<h1 align="center">GiftCard Website</h1>
+<h1 align="center">Giftcard Website</h1>
 
 <p align="center">
 	<a href="https://www.linkedin.com/in/luiz-gustavo-56146b1a5/">
@@ -29,7 +29,7 @@
 </p>
 
 <div align="center">
-  <sub>Gift Card Website project. Built with ❤︎ by
+  <sub>Giftcard Website project. Built with ❤︎ by
     <a href="https://github.com/tonicprism">Luiz Gustavo</a>
   </sub>
 </div>
@@ -99,7 +99,7 @@ If you whats to use the Eslint and Prettier configs follow this tutorial:
 
 # :bug: Issues
 
-Feel free to **file a new issue** with a respective title and description on the the [Gift Card Website](https://github.com/tonicprism/giftcard-website/issues) repository. If you already found a solution to your problem, **i would love to review your pull request**!
+Feel free to **file a new issue** with a respective title and description on the the [Giftcard Website](https://github.com/tonicprism/giftcard-website/issues) repository. If you already found a solution to your problem, **i would love to review your pull request**!
 
 # :tada: Contributing
 
