@@ -1,0 +1,163 @@
+:root {
+  /* Here you insert the colors of you preference. And be welcome to modify more if wish.😁 */
+  --background-color: #f5ef7a;
+  --primary-letter-color: #ded302;
+  --secondary-letter-color: #f2e70a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  /* Try change the fonts if wish.😁
+     Remember of also change in the index.html
+     file inside the public folder, in case
+     of you want to use a google fonts
+  */
+  font-family: 'Lobster', cursive;
+}
+
+body {
+  background: var(--background-color);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30vh;
+}
+h1 {
+  -webkit-text-stroke: 0.1px black;
+}
+
+#from-to {
+  margin-right: 20px;
+}
+
+.letter-content > h1 {
+  color: #000;
+}
+
+.mail {
+  width: 300px;
+  height: 200px;
+  background: var(--primary-letter-color);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  position: relative;
+  transform-style: preserve-3d;
+  cursor: pointer;
+}
+
+.mail:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid var(--secondary-letter-color);
+  border-top: 100px solid transparent;
+  border-bottom: 100px solid var(--secondary-letter-color);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  z-index: 5;
+}
+
+.mail:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-left: 150px solid var(--primary-letter-color);
+  border-right: 150px solid transparent;
+  border-top: 100px solid transparent;
+  border-bottom: 100px solid var(--primary-letter-color);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  z-index: 4;
+}
+
+.cover:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  border-top: 100px solid var(--primary-letter-color);
+  border-bottom: 100px solid transparent;
+  z-index: 6;
+  transform-origin: top;
+  transform: rotateX(0deg);
+  transition: all 1s 1s ease;
+}
+
+.letter {
+  position: absolute;
+  z-index: 3;
+  top: 0px;
+  left: 10px;
+  background: #dedede;
+  width: 280px;
+  height: 180px;
+  border-radius: 20px;
+  transition: all 1s ease;
+}
+
+.letter div {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  margin-left: 20%;
+  transform: translate(-50%, -50%);
+  font-size: 10px;
+  color: #798992;
+  font-weight: 900;
+}
+
+.mail:hover .cover:before {
+  transform: rotateX(180deg);
+  transition: all 1s ease;
+}
+
+.mail:hover .letter {
+  top: -80px;
+  transition: all 1s 1s ease;
+}
+
+.button-back {
+  display: flex;
+  color: #000;
+  background: rgba(29, 26, 26, 0);
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  min-width: 12rem;
+  border: 2px solid #000;
+  border-radius: 10px;
+  outline-color: #fff;
+  border-style: solid;
+  text-decoration-line: none;
+  justify-content: center;
+}
+
+.button-back:focus {
+  outline: none;
+}
+
+.button-back:hover {
+  cursor: pointer;
+  color: var(--background-color);
+  background: #000;
+  transition: all 1.2s ease;
+  border-radius: 20px;
+}
+
+#from,
+#to {
+  color: var(--primary-letter-color);
+  -webkit-text-stroke: 0px black;
+}

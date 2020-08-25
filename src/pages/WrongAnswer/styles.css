@@ -1,0 +1,12 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 33vh;
+}
+
+h1 {
+  color: #000;
+  -webkit-text-stroke: 0.5px rgba(0, 0, 0, 0.5); /* width and color */
+}

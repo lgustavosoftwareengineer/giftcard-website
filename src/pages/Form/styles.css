@@ -1,0 +1,66 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 33vh;
+}
+
+h1 {
+  color: #000;
+  -webkit-text-stroke: 0.5px rgba(0, 0, 0, 0.5); /* width and color */
+}
+
+.form-container > .button {
+  display: flex;
+  color: #000;
+  background: rgba(29, 26, 26, 0);
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  min-width: 12rem;
+  border: 2px solid #000;
+  border-radius: 10px;
+  outline-color: #fff;
+  border-style: solid;
+  text-decoration-line: none;
+  justify-content: center;
+}
+
+.form-container > .button:focus {
+  outline: none;
+}
+
+.form-container > .button:hover {
+  cursor: pointer;
+  color: var(--background-color);
+  background: #000;
+  transition: all 1.2s ease;
+  border-radius: 20px;
+}
+
+.form-container > input:hover {
+  transition: all 1.2s ease;
+  border-radius: 20px;
+}
+
+.form-container > input:hover {
+  outline: none;
+}
+
+input[name='keyword'] {
+  color: #000;
+  background: rgba(29, 26, 26, 0);
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  border: 2px solid #000;
+  border-radius: 10px;
+  outline-color: #000;
+  border-style: solid;
+  -webkit-appearance: none;
+  font-weight: 800;
+}
+input[name='keyword']:focus {
+  outline: none;
+}
