@@ -16,4 +16,4 @@ If you encounter a problem with this project, please open an issue. Be sure to i
 
 - Package version
 - Node version
-- Brief but thorough description of the issue
+- Brief but through description of the issue
