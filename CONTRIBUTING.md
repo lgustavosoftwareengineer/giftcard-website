@@ -15,5 +15,5 @@ If you have an idea for an enhancement, go ahead and share it via an issue, but 
 If you encounter a problem with this project, please open an issue. Be sure to include:
 
 - Package version
-- Node and Express versions
+- Node and/or Express versions
 - Brief but thorough description of the issue
