@@ -80,7 +80,7 @@ const GiftCard: React.FC = () => {
         {/* Here are some playlist by your choice */}
         <iframe
           title="HappyBirthday"
-          src="https://open.spotify.com/embed/playlist/4rwpivnI4LveehwciuQlIA"
+          src="https://open.spotify.com/embed/playlist/3zEgcPGS5Ub7l7dfzkReUc"
           width="300"
           height="200"
           frameBorder="0"
